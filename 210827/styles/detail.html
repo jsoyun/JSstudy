@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상세보기</title>
+    <link
+      rel="stylesheet"
+      href="/210827/libs/jquery-ui-1.12.1/jquery-ui.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="/210827/libs/jquery-3.5.1.min.js"></script>
+    <script src="/210827/libs/galleria/galleria/galleria-1.5.7.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7GmWUL67jIh8NWkAcZtlhO_LB_6-ThWg"></script>
+    <script src="/210827/scripts/scripts.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header" class="inverted">
+        <div>
+          <a href="index.html"><span></span></a>
+          <div class="menu-items right">
+            <a href="mytrip.html">마이트립</a>
+            <img src="/210827/images/line_maintop_gray.png" />
+            <a href="register.html">회원가입</a>
+          </div>
+        </div>
+      </div>
+      <div id="body" class="detail">
+        <div class="detail-container">
+          <div class="detail-header">
+            <img src="/210827/images/icon_list_location.png" />
+            <div class="detail-header-name"></div>
+            <span class="detail-header-city-name"></span>
+            <button class="btn-register">여행지 등록하기</button>
+          </div>
+          <div id="detail-images"></div>
+          <div class="detail-desc">
+            <div class="detail-title">장소소개</div>
+            <div class="detail-desc-text"></div>
+            <div class="detail-map">
+              <div class="detail-title">지도</div>
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
