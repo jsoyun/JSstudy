@@ -1,0 +1,60 @@
+.container {
+  width: 700px;
+  margin: 50px auto 80px;
+}
+.header {
+  border: 4px solid orange;
+}
+.title {
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 20px;
+  color: orchid;
+}
+.search {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+}
+
+.btn-search {
+  width: 70px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.total {
+}
+
+#item-template {
+  display: none;
+}
+.item {
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.item-no {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: brown;
+  vertical-align: middle;
+  min-width: 15px;
+}
+.item-detail {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.item-name {
+  font-size: 20px;
+}
+.item-addr {
+  font-size: 14px;
+  color: cornflowerblue;
+  margin-top: 3px;
+}

@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\210826_1"
+	},
+	{
+		"path": "..\\APItry"
+	},
+	{
+		"path": "..\\엘리수업"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "엘리수업"
+  }
+}
